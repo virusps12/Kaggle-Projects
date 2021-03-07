@@ -3,6 +3,7 @@ import numpy as np
 import missingno as mno
 import statistics as st
 
+print("HELLo")
 train_data = pd.read_csv("train.csv")
 test_data = pd.read_csv("test.csv")
 sample = pd.read_csv("sample_submission.csv")
